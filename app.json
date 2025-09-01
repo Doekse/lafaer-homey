@@ -27,9 +27,24 @@
     "xlarge": "/assets/images/xlarge.png"
   },
   "author": {
-    "name": "Abe Haverkamp",
-    "email": "abe.haverkamp@gmail.com"
+    "name": "GL Technologies",
+    "email": "abe.haverkamp+lafaer@homey.app"
   },
+  "contributors": {
+    "developers": [
+      {
+        "name": "Abe Haverkamp (developer)"
+      },
+      {
+        "name": "Bas van der Ploeg (icons)"
+      },
+      {
+        "name": "Ivo Derksen (icons)"
+      }
+    ]
+  },
+  "source": "https://github.com/Doekse/lafaer-homey",
+  "support": "mailto:abe.haverkamp+lafaer@homey.app",
   "drivers": [
     {
       "name": {
