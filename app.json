@@ -1,0 +1,85 @@
+{
+  "_comment": "This file is generated. Please edit .homeycompose/app.json instead.",
+  "id": "co.lafaer",
+  "version": "1.0.0",
+  "compatibility": ">=12.4.0",
+  "sdk": 3,
+  "brandColor": "#707271",
+  "platformLocalRequiredFeatures": [
+    "matter"
+  ],
+  "platforms": [
+    "local"
+  ],
+  "name": {
+    "en": "Lafaer"
+  },
+  "description": {
+    "en": "Transform Light, Transform Life."
+  },
+  "category": [
+    "lights"
+  ],
+  "permissions": [],
+  "images": {
+    "small": "/assets/images/small.png",
+    "large": "/assets/images/large.png",
+    "xlarge": "/assets/images/xlarge.png"
+  },
+  "author": {
+    "name": "Abe Haverkamp",
+    "email": "abe.haverkamp@gmail.com"
+  },
+  "drivers": [
+    {
+      "name": {
+        "en": "Wireless Human Presence Sensor LWR01"
+      },
+      "class": "sensor",
+      "capabilities": [
+        "measure_battery",
+        "measure_luminance",
+        "alarm_motion"
+      ],
+      "energy": {
+        "batteries": [
+          "AA",
+          "AA"
+        ]
+      },
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "matter"
+      ],
+      "images": {
+        "small": "/drivers/lwr01/assets/images/small.png",
+        "large": "/drivers/lwr01/assets/images/large.png",
+        "xlarge": "/drivers/lwr01/assets/images/xlarge.png"
+      },
+      "matter": {
+        "vendorId": 5520,
+        "productId": 40961,
+        "learnmode": {
+          "instruction": {
+            "en": "The device will automatically start Matter pairing mode when first powered on, indicated by a rapidly flashing orange indicator LED. If the indicator LED is not flashing orange rapidly, press and hold the button on the device for over 8 seconds to manually enter Matter pairing mode.",
+            "nl": "Het apparaat start automatisch de Matter-koppelingsmodus wanneer het voor het eerst wordt ingeschakeld, aangegeven door een snel knipperende oranje indicator-LED. Als de indicator-LED niet snel oranje knippert, houd je de knop op het apparaat langer dan 8 seconden ingedrukt om handmatig de Matter-koppelingsmodus te starten.",
+            "de": "Das Gerät startet automatisch den Matter-Pairing-Modus beim ersten Einschalten, angezeigt durch eine schnell blinkende orange LED. Wenn die LED nicht schnell orange blinkt, halten Sie die Taste am Gerät länger als 8 Sekunden gedrückt, um manuell den Matter-Pairing-Modus zu starten.",
+            "fr": "L'appareil démarre automatiquement le mode d'appairage Matter lors de la première mise sous tension, indiqué par un indicateur LED orange clignotant rapidement. Si l'indicateur LED ne clignote pas rapidement en orange, maintenez le bouton sur l'appareil enfoncé plus de 8 secondes pour entrer manuellement en mode d'appairage Matter.",
+            "it": "Il dispositivo avvierà automaticamente la modalità di abbinamento Matter quando viene acceso per la prima volta, indicato da un indicatore LED arancione lampeggiante rapidamente. Se l'indicatore LED non lampeggia rapidamente in arancione, tenere premuto il pulsante sul dispositivo per più di 8 secondi per entrare manualmente in modalità di abbinamento Matter.",
+            "sv": "Enheten startar automatiskt Matter-parningsläget när den slås på för första gången, indikerat av en snabbt blinkande orange indikator-LED. Om indikator-LED:en inte blinkar snabbt orange, håll ned knappen på enheten i mer än 8 sekunder för att manuellt starta Matter-parningsläget.",
+            "no": "Enheten starter automatisk Matter-parring modus når den slås på for første gang, indikert av en raskt blinkende oransje indikator-LED. Hvis indikator-LED-en ikke blinker raskt oransje, hold nede knappen på enheten i mer enn 8 sekunder for å manuelt starte Matter-parring modus.",
+            "es": "El dispositivo iniciará automáticamente el modo de emparejamiento Matter cuando se encienda por primera vez, indicado por un LED indicador naranja parpadeando rápidamente. Si el LED indicador no parpadea rápidamente en naranja, mantenga presionado el botón del dispositivo durante más de 8 segundos para entrar manualmente en el modo de emparejamiento Matter.",
+            "da": "Enheden starter automatisk Matter-parringstilstand når den tændes for første gang, indikeret af en hurtigt blinkende orange indikator-LED. Hvis indikator-LED'en ikke blinker hurtigt orange, hold knappen på enheden nede i mere end 8 sekunder for at manuelt starte Matter-parringstilstand.",
+            "ru": "Устройство автоматически запустит режим сопряжения Matter при первом включении, что будет обозначено быстро мигающим оранжевым индикаторным светодиодом. Если индикаторный светодиод не мигает быстро оранжевым, удерживайте кнопку на устройстве более 8 секунд для ручного входа в режим сопряжения Matter.",
+            "pl": "Urządzenie automatycznie uruchomi tryb parowania Matter przy pierwszym włączeniu, co będzie oznaczone szybko migającym pomarańczowym diodą LED wskaźnikową. Jeśli dioda LED wskaźnikowa nie miga szybko na pomarańczowo, przytrzymaj przycisk na urządzeniu dłużej niż 8 sekund, aby ręcznie uruchomić tryb parowania Matter.",
+            "ko": "장치가 처음 전원을 켤 때 빠르게 깜빡이는 주황색 표시등으로 표시되는 Matter 페어링 모드를 자동으로 시작합니다. 표시등이 주황색으로 빠르게 깜빡이지 않는 경우, 장치의 버튼을 8초 이상 길게 눌러 Matter 페어링 모드를 수동으로 시작하세요."
+          },
+          "image": "/drivers/lwr01/assets/pair.svg"
+        }
+      },
+      "id": "lwr01"
+    }
+  ]
+}
