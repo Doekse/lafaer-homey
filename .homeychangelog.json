@@ -4,5 +4,8 @@
   },
   "0.2.0": {
     "en": "Added readme.txt in all supported languages"
+  },
+  "0.2.1": {
+    "en": "Changed publisher name"
   }
 }
