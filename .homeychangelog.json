@@ -7,5 +7,8 @@
   },
   "0.2.1": {
     "en": "Changed publisher name"
+  },
+  "1.0.0": {
+    "en": "First stable release"
   }
 }
