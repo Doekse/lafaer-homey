@@ -13,5 +13,8 @@
   },
   "1.1.0": {
     "en": "Added support for the LWR02"
+  },
+  "1.1.1": {
+    "en": "Adjusted image sizing"
   }
 }
